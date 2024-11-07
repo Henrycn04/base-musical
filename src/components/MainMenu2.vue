@@ -136,7 +136,7 @@ export default {
   },
   async mounted() {
     try {
-      const response = await axios.get('https://localhost:7294/api/MusicalCategories/hierarchical');
+      const response = await axios.get('https://basemusicallatina-g5cyh2eddmfzgqd4.eastus2-01.azurewebsites.net/api/MusicalCategories/hierarchical');
       this.musicalOptions2 = response.data;  // Asigna los datos que vienen en formato adecuado
       this.fetchExamples();
       console.log("Ejemplos: ", this.examples);
