@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base de Audios - Cadencias</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style="background-color: #f07800;">Base de Audios Latinoamericanos</h1>
+        <button id="clear-filters">Borrar Filtros</button>
+        <div id="filter-container">
+            <div style="width: fit-content; background-color: #d57c23;"> Primer filtro </div>
+            <label> <!--PRIMER FILTRO-->
+                <input type="checkbox" class="filter-checkbox" data-filter="Cadencias"> Cadencias
+            </label>
+            <label>
+                <input type="checkbox" class="filter-checkbox" data-filter="Acordes"> Acordes
+            </label>
+            
+            <div class="sub-filters" data-parent="Cadencias"> <!--PRIMER FILTRO-->
+                <div style="width: fit-content; background-color: #d57c23;"> Segundo filtro </div>
+                <label>
+                    <input type="checkbox" class="filter-checkbox" data-filter="Armónicas"> Armónicas
+                </label>
+                <label>
+                    <input type="checkbox" class="filter-checkbox" data-filter="Melódicas"> Melódicas
+                </label>
+
+                <div class="sub-filters" data-parent="Armónicas">
+
+
+                    <div style="width: fit-content; background-color: #d57c23;"> Tercer filtro </div>
+                    <label>
+                        <input type="checkbox" class="filter-checkbox" data-filter="Conclusivas"> Conclusivas
+                    </label>
+                    <label>
+                        <input type="checkbox" class="filter-checkbox" data-filter="Semi-conclusivas"> Semi-conclusivas
+                    </label>
+                    <label>
+                        <input type="checkbox" class="filter-checkbox" data-filter="Desviaciones cadenciales"> Desviaciones cadenciales
+                    </label>
+
+
+
+
+                    <div class="sub-filters" data-parent="Conclusivas">
+                        <div style="width: fit-content; background-color: #d57c23;"> Cuarto filtro </div>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="Auténtica perfecta"> Auténtica perfecta
+                        </label>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="Auténtica imperfecta"> Auténtica imperfecta
+                        </label>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="Plagal"> Plagal
+                        </label>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="Landini"> Landini
+                        </label>
+                    </div>
+                    <div class="sub-filters" data-parent="Semi-conclusivas">
+                        <div style="width: fit-content; background-color: #d57c23;"> Cuarto filtro </div>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="Semicadencia auténtica"> Semicadencia auténtica
+                        </label>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="Semicadencia plagal"> Semicadencia plagal
+                        </label>
+                    </div>
+                    <div class="sub-filters" data-parent="Desviaciones cadenciales">
+                        <div style="width: fit-content; background-color: #d57c23;"> Cuarto filtro </div>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="Auténtica deceptiva"> Auténtica deceptiva
+                        </label>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="Plagal deceptiva"> Plagal deceptiva
+                        </label>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="Evadida"> Evadida
+                        </label>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="Abandonada"> Abandonada
+                        </label>
+                    </div>
+                </div>
+                <div class="sub-filters" data-parent="Melódicas">
+                    <div style="width: fit-content; background-color: #d57c23;"> Tercer filtro </div>
+                    <label>
+                        <input type="checkbox" class="filter-checkbox" data-filter="Conclusivas"> Conclusivas
+                    </label>
+                    <label>
+                        <input type="checkbox" class="filter-checkbox" data-filter="Semi-conclusivas"> Semi-conclusivas
+                    </label>
+                    <label>
+                        <input type="checkbox" class="filter-checkbox" data-filter="No-conclusivas"> No-conclusivas
+                    </label>
+                </div>
+            </div>
+            <!--PRIMER FILTRO ACORDES-->
+            <div class="sub-filters" data-parent="Acordes">
+                <div style="width: fit-content; background-color: #d57c23;"> Segundo filtro </div>
+                <label>
+                    <input type="checkbox" class="filter-checkbox" data-filter="Tonales"> Tonales
+                </label>
+                <div class="sub-filters" data-parent="Tonales">
+                    <div style="width: fit-content; background-color: #d57c23;"> Tercer filtro </div>
+                    <label>
+                        <input type="checkbox" class="filter-checkbox" data-filter="Diatónicos"> Diatónicos
+                    </label>
+                    <label>
+                        <input type="checkbox" class="filter-checkbox" data-filter="Cromáticos"> Cromáticos
+                    </label>
+
+                    <div class="sub-filters" data-parent="Diatónicos">
+                        <div style="width: fit-content; background-color: #d57c23;"> Cuarto filtro </div>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="Tónica"> Tónica
+                        </label>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="Subdominante"> Subdominante
+                        </label>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="Dominante"> Dominante
+                        </label>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="Sensible"> Sensible
+                        </label>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="Supertónica"> Supertónica
+                        </label>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="Mediante"> Mediante
+                        </label>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="Submediante"> Submediante
+                        </label>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="Subtónica"> Subtónica
+                        </label>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="Acordes de 6/4"> Acordes de 6/4
+                        </label>
+                        <div class="sub-filters" data-parent="Tónica">
+                            <div style="width: fit-content; background-color: #d57c23;"> Quinto filtro </div>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="I"> I
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="I6"> I6
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="I7"> I7
+                            </label>
+                        </div>
+                        <div class="sub-filters" data-parent="Subdominante">
+                            <div style="width: fit-content; background-color: #d57c23;"> Quinto filtro </div>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="IV"> IV
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="IV6"> IV6
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="IV7"> IV7
+                            </label>
+                        </div>
+                        <div class="sub-filters" data-parent="Dominante">
+                            <div style="width: fit-content; background-color: #d57c23;"> Quinto filtro </div>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="V"> V
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="V6"> V6
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="V7"> V7
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="V6/5"> V6/5
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="V4/3"> V4/3
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="V4/2"> V4/2
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="Vsus4 9 ('IV/5')"> Vsus4 9 ("IV/5")
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="V8-7"> V8-7
+                            </label>
+                        </div>
+                        <div class="sub-filters" data-parent="Sensible">
+                            <div style="width: fit-content; background-color: #d57c23;"> Quinto filtro </div>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="vii°6"> vii°6
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="vii°7"> vii°7
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="vii°6/5"> vii°6/5
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="vii°4/3"> vii°4/3
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="vii°4/2"> vii°4/2
+                            </label>
+                        </div>
+                        <div class="sub-filters" data-parent="Supertónica">
+                            <div style="width: fit-content; background-color: #d57c23;"> Quinto filtro </div>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="ii"> ii
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="ii6"> ii6
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="ii6/5"> ii6/5
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="ii4/3"> ii4/3
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="ii4/2"> ii4/2
+                            </label>
+                        </div>
+                        <div class="sub-filters" data-parent="Mediante">
+                            <div style="width: fit-content; background-color: #d57c23;"> Quinto filtro </div>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="iii"> iii
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="iii6"> iii6
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="iii7"> iii7
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="iii6/5"> iii6/5
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="iii4/3"> iii4/3
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="iii4/2"> iii4/2
+                            </label>
+                        </div>
+                        <div class="sub-filters" data-parent="Submediante">
+                            <div style="width: fit-content; background-color: #d57c23;"> Quinto filtro </div>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="vi"> vi
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="vi6"> vi6
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="vi7"> vi7
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="vi6/5"> vi6/5
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="vi4/3"> vi4/3
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="vi4/2"> vi4/2
+                            </label>
+                        </div>
+                        <div class="sub-filters" data-parent="Subtónica">
+                            <div style="width: fit-content; background-color: #d57c23;"> Quinto filtro </div>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="bVII"> bVII
+                            </label>
+                        </div>
+                        <div class="sub-filters" data-parent="Acordes de 6/4">
+                            <div style="width: fit-content; background-color: #d57c23;"> Quinto filtro </div>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="Paso"> Paso
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="Auxiliar"> Auxiliar
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="Arpegiado"> Arpegiado
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="Cadencial"> Cadencial
+                            </label>
+                        </div>
+                    </div>
+
+
+
+                    <div class="sub-filters" data-parent="Cromáticos"> <!--Tercer filtro acordes-tonales-cromaticos-->
+                        <div style="width: fit-content; background-color: #d57c23;"> Cuarto filtro </div>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="Dominantes alteradas"> Dominantes alteradas
+                        </label>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="Nota común"> Nota común
+                        </label>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="Acorde de sexta Nap. (bII)"> Acorde de sexta Nap. (bII)
+                        </label>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="Acordes de sexta aum"> Acordes de sexta aum
+                        </label>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="Mixtura tonal"> Mixtura tonal
+                        </label>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="V7(#9)"> V7(#9)
+                        </label>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="Sustitución tritonal (subV)"> Sustitución tritonal (subV)
+                        </label>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="Tonicalización"> Tonicalización
+                        </label>
+                        <label>
+                            <input type="checkbox" class="filter-checkbox" data-filter="Extendida"> Extendida
+                        </label>
+                        <div class="sub-filters" data-parent="Dominantes alteradas">
+                            <div style="width: fit-content; background-color: #d57c23;"> Quinto filtro </div>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="V+"> V+
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="Vb5"> Vb5
+                            </label>
+                        </div>
+                        <div class="sub-filters" data-parent="Nota común">
+                            <div style="width: fit-content; background-color: #d57c23;"> Quinto filtro </div>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="NC°7"> NC°7
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="NC6+"> NC6+
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="NC7"> NC7
+                            </label>
+                        </div>
+                        <div class="sub-filters" data-parent="Acordes de sexta aum">
+                            <div style="width: fit-content; background-color: #d57c23;"> Quinto filtro </div>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="Alem"> Alem
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="Fran"> Fran
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="Ital"> Ital
+                            </label>
+                        </div>
+                        <div class="sub-filters" data-parent="Mixtura tonal">
+                            <div style="width: fit-content; background-color: #d57c23;"> Quinto filtro </div>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="Simple"> Simple
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="Doble"> Doble
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="Secundaria"> Secundaria
+                            </label>
+                            <div class="sub-filters" data-parent="Simple">
+                                <div style="width: fit-content; background-color: #d57c23;"> Sexto filtro </div>
+                                <label>
+                                    <input type="checkbox" class="filter-checkbox" data-filter="Mayor"> Mayor
+                                </label>
+                                <label>
+                                    <input type="checkbox" class="filter-checkbox" data-filter="Menor"> Menor
+                                </label>
+                                <div class="sub-filters" data-parent="Mayor">
+                                    <div style="width: fit-content; background-color: #d57c23;"> Setimo filtro </div>
+                                    <label>
+                                        <input type="checkbox" class="filter-checkbox" data-filter="i"> i
+                                    </label>
+                                    <label>
+                                        <input type="checkbox" class="filter-checkbox" data-filter="ii°"> ii°
+                                    </label>
+                                    <label>
+                                        <input type="checkbox" class="filter-checkbox" data-filter="bIII"> bIII
+                                    </label>
+                                    <label>
+                                        <input type="checkbox" class="filter-checkbox" data-filter="iv"> iv
+                                    </label>
+                                    <label>
+                                        <input type="checkbox" class="filter-checkbox" data-filter="bVI"> bVI
+                                    </label>
+                                    <label>
+                                        <input type="checkbox" class="filter-checkbox" data-filter="bVII"> bVII
+                                    </label>
+                                </div>
+                                <div class="sub-filters" data-parent="Menor">
+                                    <div style="width: fit-content; background-color: #d57c23;"> Setimo filtro </div>
+                                    <label>
+                                        <input type="checkbox" class="filter-checkbox" data-filter="I"> I
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="sub-filters" data-parent="Doble">
+                                <div style="width: fit-content; background-color: #d57c23;"> Sexto filtro </div>
+                                <label>
+                                    <input type="checkbox" class="filter-checkbox" data-filter="biii"> biii
+                                </label>
+                                <label>
+                                    <input type="checkbox" class="filter-checkbox" data-filter="bvi"> bvi
+                                </label>
+                                <label>
+                                    <input type="checkbox" class="filter-checkbox" data-filter="bvii"> bvii
+                                </label>
+                            </div>
+                            <div class="sub-filters" data-parent="Secundaria">
+                                <div style="width: fit-content; background-color: #d57c23;"> Sexto filtro </div>
+                                <label>
+                                    <input type="checkbox" class="filter-checkbox" data-filter="II"> II
+                                </label>
+                                <label>
+                                    <input type="checkbox" class="filter-checkbox" data-filter="III"> III
+                                </label>
+                                <label>
+                                    <input type="checkbox" class="filter-checkbox" data-filter="VI"> VI
+                                </label>
+                                <label>
+                                    <input type="checkbox" class="filter-checkbox" data-filter="vii"> vii
+                                </label>
+                                <label>
+                                    <input type="checkbox" class="filter-checkbox" data-filter="VII"> VII
+                                </label>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="sub-filters" data-parent="Tonicalización">
+                            <div style="width: fit-content; background-color: #d57c23;"> Quinto filtro </div>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="Simple"> Simple
+                            </label>
+                            <label>
+                                <input type="checkbox" class="filter-checkbox" data-filter="Extendida"> Extendida
+                            </label>
+                            <div class="sub-filters" data-parent="Simple">
+                                <div style="width: fit-content; background-color: #d57c23;"> Sexto filtro </div>
+                                <label>
+                                    <input type="checkbox" class="filter-checkbox" data-filter="Dominantes secundarias"> Dominantes secundarias
+                                </label>
+                                <label>
+                                    <input type="checkbox" class="filter-checkbox" data-filter="Sensibles secundarias"> Sensibles secundarias
+                                </label>
+                                <div class="sub-filters" data-parent="Dominantes secundarias">
+                                    <div style="width: fit-content; background-color: #d57c23;"> Setimo filtro </div>
+                                    <label>
+                                        <input type="checkbox" class="filter-checkbox" data-filter="V/V"> V/V
+                                    </label>
+                                    <label>
+                                        <input type="checkbox" class="filter-checkbox" data-filter="V/II"> V/II
+                                    </label>
+                                    <label>
+                                        <input type="checkbox" class="filter-checkbox" data-filter="V/IV"> V/IV
+                                    </label>
+                                    <label>
+                                        <input type="checkbox" class="filter-checkbox" data-filter="V/VI"> V/VI
+                                    </label>
+                                    <label>
+                                        <input type="checkbox" class="filter-checkbox" data-filter="V/III"> V/III
+                                    </label>
+                                </div>
+                                <div class="sub-filters" data-parent="Sensibles secundarias">
+                                    <div style="width: fit-content; background-color: #d57c23;"> Setimo filtro </div>
+                                    <label>
+                                        <input type="checkbox" class="filter-checkbox" data-filter="vii°/V"> vii°/V
+                                    </label>
+                                    <label>
+                                        <input type="checkbox" class="filter-checkbox" data-filter="vii°/II"> vii°/II
+                                    </label>
+                                    <label>
+                                        <input type="checkbox" class="filter-checkbox" data-filter="vii°/IV"> vii°/IV
+                                    </label>
+                                    <label>
+                                        <input type="checkbox" class="filter-checkbox" data-filter="vii°/VI"> vii°/VI
+                                    </label>
+                                    <label>
+                                        <input type="checkbox" class="filter-checkbox" data-filter="vii°/III"> vii°/III
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="audio-list">
+            <!-- Aquí aparecerán los audios filtrados -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

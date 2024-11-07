@@ -1,0 +1,25 @@
+-- 1. Cadencias
+INSERT INTO Categorias (nombre, padre_id) VALUES ('Cadencias', NULL);
+-- 1.1. Armónicas
+INSERT INTO Categorias (nombre, padre_id) 
+VALUES ('Armónicas', (SELECT id FROM Categorias WHERE nombre = 'Cadencias'));
+-- 1.1.1. Conclusivas
+INSERT INTO Categorias (nombre, padre_id) 
+VALUES ('Conclusivas', (SELECT id FROM Categorias WHERE nombre = 'Armónicas'));
+-- 1.1.1.1. Auténtica perfecta
+-- 1.1.1.2. Auténtica imperfecta
+-- 1.1.1.3. Plagal
+-- 1.1.1.4. Landini
+-- 1.1.2. Semi-conclusivas
+-- 1.1.2.1. Semicadencia auténtica
+-- 1.1.2.2. Semicadencia plagal
+-- 1.1.3. Desviaciones cadenciales
+-- 1.1.3.1. Auténtica deceptiva (rota)
+-- 1.1.3.2. Plagal deceptiva
+-- 1.1.3.3. Evadida
+-- 1.1.3.4. Abandonada
+-- 1.2. Melódicas
+-- 1.2.1. Conclusivas
+-- 1.2.2. Semi-conclusivas
+-- 1.2.3. No-conclusivas
+completame este diseño a partir del ejemplo que doy

@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\XPC\\base-musical\\SegundaProy\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F55DF0CE-DD55-4D20-9311-62CE8F0D5377}|backend.csproj|c:\\users\\xpc\\base-musical\\segundaproy\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F55DF0CE-DD55-4D20-9311-62CE8F0D5377}|backend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F55DF0CE-DD55-4D20-9311-62CE8F0D5377}|backend.csproj|c:\\users\\xpc\\base-musical\\segundaproy\\backend\\backend.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F55DF0CE-DD55-4D20-9311-62CE8F0D5377}|backend.csproj|solutionrelative:backend.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F55DF0CE-DD55-4D20-9311-62CE8F0D5377}|backend.csproj|c:\\users\\xpc\\base-musical\\segundaproy\\backend\\handlers\\musicalcategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F55DF0CE-DD55-4D20-9311-62CE8F0D5377}|backend.csproj|solutionrelative:handlers\\musicalcategoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F55DF0CE-DD55-4D20-9311-62CE8F0D5377}|backend.csproj|c:\\users\\xpc\\base-musical\\segundaproy\\backend\\controllers\\musicalcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F55DF0CE-DD55-4D20-9311-62CE8F0D5377}|backend.csproj|solutionrelative:controllers\\musicalcategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F55DF0CE-DD55-4D20-9311-62CE8F0D5377}|backend.csproj|c:\\users\\xpc\\base-musical\\segundaproy\\backend\\models\\musicalcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F55DF0CE-DD55-4D20-9311-62CE8F0D5377}|backend.csproj|solutionrelative:models\\musicalcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\XPC\\source\\repos\\base-musical\\SegundaProy\\SCRIPTS\\Esquema.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F55DF0CE-DD55-4D20-9311-62CE8F0D5377}|backend.csproj|c:\\users\\xpc\\base-musical\\segundaproy\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F55DF0CE-DD55-4D20-9311-62CE8F0D5377}|backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F55DF0CE-DD55-4D20-9311-62CE8F0D5377}|backend.csproj|c:\\users\\xpc\\base-musical\\segundaproy\\backend\\models\\musicalcategorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F55DF0CE-DD55-4D20-9311-62CE8F0D5377}|backend.csproj|solutionrelative:models\\musicalcategorymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 216,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "backend",
+              "DocumentMoniker": "C:\\Users\\XPC\\base-musical\\SegundaProy\\backend\\backend.csproj",
+              "RelativeDocumentMoniker": "backend.csproj",
+              "ToolTip": "C:\\Users\\XPC\\base-musical\\SegundaProy\\backend\\backend.csproj",
+              "RelativeToolTip": "backend.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-07T06:47:50.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MusicalCategoryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\XPC\\base-musical\\SegundaProy\\backend\\Handlers\\MusicalCategoryHandler.cs",
+              "RelativeDocumentMoniker": "Handlers\\MusicalCategoryHandler.cs",
+              "ToolTip": "C:\\Users\\XPC\\base-musical\\SegundaProy\\backend\\Handlers\\MusicalCategoryHandler.cs",
+              "RelativeToolTip": "Handlers\\MusicalCategoryHandler.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAswFYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T16:10:19.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MusicalCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\XPC\\base-musical\\SegundaProy\\backend\\Models\\MusicalCategoryDto.cs",
+              "RelativeDocumentMoniker": "Models\\MusicalCategoryDto.cs",
+              "ToolTip": "C:\\Users\\XPC\\base-musical\\SegundaProy\\backend\\Models\\MusicalCategoryDto.cs",
+              "RelativeToolTip": "Models\\MusicalCategoryDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T16:20:50.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MusicalCategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\XPC\\base-musical\\SegundaProy\\backend\\Controllers\\MusicalCategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MusicalCategoriesController.cs",
+              "ToolTip": "C:\\Users\\XPC\\base-musical\\SegundaProy\\backend\\Controllers\\MusicalCategoriesController.cs",
+              "RelativeToolTip": "Controllers\\MusicalCategoriesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T16:16:30.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\XPC\\base-musical\\SegundaProy\\backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\XPC\\base-musical\\SegundaProy\\backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-04T16:21:42.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\XPC\\base-musical\\SegundaProy\\backend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\XPC\\base-musical\\SegundaProy\\backend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T16:54:48.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MusicalCategoryModel.cs",
+              "DocumentMoniker": "C:\\Users\\XPC\\base-musical\\SegundaProy\\backend\\Models\\MusicalCategoryModel.cs",
+              "RelativeDocumentMoniker": "Models\\MusicalCategoryModel.cs",
+              "ToolTip": "C:\\Users\\XPC\\base-musical\\SegundaProy\\backend\\Models\\MusicalCategoryModel.cs",
+              "RelativeToolTip": "Models\\MusicalCategoryModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-04T16:09:29.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Esquema.sql",
+              "DocumentMoniker": "C:\\Users\\XPC\\source\\repos\\base-musical\\SegundaProy\\SCRIPTS\\Esquema.sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\base-musical\\SegundaProy\\SCRIPTS\\Esquema.sql",
+              "ToolTip": "C:\\Users\\XPC\\source\\repos\\base-musical\\SegundaProy\\SCRIPTS\\Esquema.sql",
+              "RelativeToolTip": "..\\..\\..\\source\\repos\\base-musical\\SegundaProy\\SCRIPTS\\Esquema.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-10-04T16:04:01.761Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
