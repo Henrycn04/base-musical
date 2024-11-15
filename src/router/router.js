@@ -1,9 +1,16 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import MainMenu from '@/components/MainMenu.vue'
 import MainMenu2 from '@/components/MainMenu2.vue'
+import MainPage from '@/components/MainPage.vue'
+
 const routes = [
     {
         path: '/',
+        name: 'MainPage',
+        component: MainPage
+    },
+    {
+        path: '/menu2',
         name: 'MainMenu2',
         component: MainMenu2
     },
@@ -12,11 +19,10 @@ const routes = [
         name: 'MainMenu',
         component: MainMenu
     },
-    
 ]
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHashHistory(),
     routes
 })
 
