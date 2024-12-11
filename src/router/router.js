@@ -2,8 +2,13 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import MainMenu from '@/components/MainMenu.vue'
 import MainMenu2 from '@/components/MainMenu2.vue'
 import MainPage from '@/components/MainPage.vue'
-
+import XadDa from '@/components/XadDa.vue'
 const routes = [
+    {
+        path: '/##',
+        name: 'XadDa',
+        component: XadDa
+    },
     {
         path: '/',
         name: 'MainPage',
